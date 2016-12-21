@@ -1,0 +1,7 @@
+! Title: @FearTheCowboy's Filters
+
+# Block the "Suggested Posts" from showing in your feed
+www.facebook.com##:xpath(//*[text()="Suggested Post"]/../../../..)
+
+# Block the lame Twitter "Moments" tab. 
+twitter.com###global-actions > .js-moments-tab.moments
