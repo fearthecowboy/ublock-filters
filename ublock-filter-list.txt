@@ -1,4 +1,6 @@
-! Title: @FearTheCowboy's Filters
+[Adblock Plus 2.0]
+! Title: FearTheCowboy's Filters
+! Homepage: https://gist.github.com/fearthecowboy/25c3171e74e1c61dab9af7caf91517f0
 
 # Block the "Suggested Posts" from showing in your feed
 www.facebook.com##:xpath(//*[text()="Suggested Post"]/../../../..)
